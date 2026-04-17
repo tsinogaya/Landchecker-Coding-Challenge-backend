@@ -15,3 +15,17 @@ bundle install
 rails db:create db:migrate db:seed
 bundle exec rspec
 ```
+
+## Quick Run
+
+From this backend folder, run:
+
+```bash
+./bin/run
+```
+
+Optional (seed before start):
+
+```bash
+./bin/run --seed
+```
